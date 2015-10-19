@@ -193,7 +193,7 @@ plot_tooltip = function(x) {
     layer_lines(stroke := ~colour,
                 # strokeWidth.hover := 16,
                 strokeWidth := input_slider(1, 30, 
-                                            label = 'line thickness', value = 8),
+                                            label = 'line thickness', value = 5),
                 opacity := input_slider(0, 1, 
                                             label = 'line opacity', value = 0.15)
     ) %>% 

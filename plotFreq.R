@@ -8,11 +8,11 @@ plotFreq = function(var,
   coord_flip() + 
   geom_text(stat = 'bin', aes(label=..count..), 
             colour = 'white', binwidth = 1,
-            size = 4, family = "Segoe UI", hjust = 1.25) +
+            size = 3.5, family = "Segoe UI", hjust = 1.05) +
     ggtitle(var) +
   theme(
-    title = element_text(size = 10, family = "Segoe UI", 
-                         hjust = -0.25, color = grey90K),
+    title = element_text(size = 8.5, family = "Segoe UI", 
+                         hjust = -0.35, color = grey90K),
     axis.title = element_blank(),
     axis.text.y = element_text(size = 7, family = "Segoe UI", 
                                hjust = 1, color = grey90K),
